@@ -5,7 +5,7 @@ import telebot
 from telebot import types
 from random import randint, choice
 
-bot = telebot.TeleBot("893774031:AAE5bzjeFbZEX6nr1lYUbNGODJjajEAmPD0")
+bot = telebot.TeleBot("821960835:AAHqDwdvRKpsEw8hQ2A8dIHeF7Xi-um0RK8")
 
 @bot.message_handler(commands=["frase"])
 def frase_command(m):
@@ -19,7 +19,7 @@ def frase_command(m):
 		
 @bot.message_handler(commands=["apaixonado"])
 def apaixao(m):
-	if m.text == '/apaixonado' or m.text == '/apaixonado@JuliaRobot':
+	if m.text == '/apaixonado' or m.text == '/apaixonado@Amanda_robot':
 		list = ["Apaixonado (a)"]
 		valor = randint(0, 100)
 		resposta = choice(list)
@@ -29,7 +29,7 @@ def apaixao(m):
 	
 @bot.message_handler(commands=["lindeza"])
 def lindeza(m):
-	if m.text == '/lindeza' or m.text == '/lindeza@JuliaRobot':
+	if m.text == '/lindeza' or m.text == '/lindeza@Amanda_Robot':
 		list = ["Lindeza (o) "]
 		valor = randint(0, 100)
 		resposta = choice(list)
@@ -74,13 +74,13 @@ Entre no nosso canal : https://telegram.me/Fakesofc
 @bot.message_handler(commands=['link'])
 def link_command(message):
     chat_id = message.chat.id
-    bot.send_message(chat_id, " 😃 Este e o Link do Bot http://telegram.me/JuliaRobot")
+    bot.send_message(chat_id, " 😃 Este e o Link do Bot http://telegram.me/Amanda_Robot")
 
 ###### Dono#####
 @bot.message_handler(commands=['dono'])
 def dono_command(message):
     chat_id = message.chat.id
-    bot.send_message(chat_id, " Criador @Fraviii ")
+    bot.send_message(chat_id, " Criador @Fraviiu ")
     
     ##### Ban ####
     
